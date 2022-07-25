@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from 'react';
 
 function App() {
 
@@ -16,13 +17,15 @@ function App() {
       })
     }
 
-    animeScroll();
+    useEffect(() => {
+      animeScroll();
+    }, []);
 
-    if (target.length) {
-      window.addEventListener('scroll', () => {
-        animeScroll();
-      });
-    }
+    
+    window.addEventListener('scroll', () => {
+      animeScroll();
+    });
+
 
 
   return (
