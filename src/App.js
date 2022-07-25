@@ -20,10 +20,14 @@ function App() {
     }
 
     animeScroll();
-   
-    window.addEventListener('scroll', function () {
-      animeScroll();
+
+    useEffect(() => {
+      window.addEventListener('scroll', function () {
+        animeScroll();
+      });
     });
+   
+
 
 
 
@@ -50,12 +54,12 @@ function App() {
 
       <section className="sobreClass" id="sobre">
       <br></br><br></br><br></br><br></br><br></br><br></br>
-        <h2>Curso de Idiomas</h2>
+        <h2 data-anime="left">Curso de Idiomas</h2>
       </section>
 
       <section className="cursosClass" id="cursos">
       <br></br><br></br><br></br><br></br><br></br><br></br>
-        <h2>Curso de Idiomas</h2>
+        <h2 data-anime="right">Curso de Idiomas</h2>
       </section>
 
       <section className="contatoClass" id="contato">
