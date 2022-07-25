@@ -19,12 +19,14 @@ function App() {
       })
     }
 
-    animeScroll();
+    // animeScroll();
 
     useEffect(() => {
-      window.addEventListener('scroll', function () {
-        animeScroll();
-      });
+      if (target.length) {
+        window.addEventListener('scroll', function () {
+          animeScroll();
+        });
+      }
     });
    
 
