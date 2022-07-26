@@ -25,6 +25,24 @@ function App() {
           animeScroll();
         });
       }
+
+      document.querySelector(".carrossel1")
+      .addEventListener("wheel", event => {
+        if(event.deltaY > 0) {
+          event.target.scrollBy(85, 0)
+        } else {
+          event.target.scrollBy(-85, 0)
+        }
+      })
+
+      document.querySelector(".carrossel2")
+      .addEventListener("wheel", event => {
+        if(event.deltaY > 0) {
+          event.target.scrollBy(85, 0)
+        } else {
+          event.target.scrollBy(-85, 0)
+        }
+      })
     });
    
 
@@ -61,13 +79,21 @@ function App() {
           <img src="./imgs/socialmedia.png" alt="" />
           <div className='carrossel1'>
             <img src="./imgs/images/carrossel1__01.png" alt="" />
+            <img src="./imgs/images/carrossel1__02.png" alt="" />
+            <img src="./imgs/images/carrossel1__03.png" alt="" />
           </div>
         </div>
         
       </section>
 
       <section className="cursosClass" id="cursos">
-      <img src="./imgs/cursos.png" alt="" />
+        <div>
+         <img src="./imgs/cursos.png" alt="" />
+            <div className='carrossel2'>
+              <img src="./imgs/images/carrossel1__01.png" alt="" />
+              <img src="./imgs/images/carrossel1__02.png" alt="" />
+            </div>
+          </div>
       </section>
 
       <section className="contatoClass" id="contato">
