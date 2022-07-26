@@ -113,7 +113,7 @@ function App() {
 
         </div>
 
-        <p>Criado por <strong>Marcos Spano</strong> e <strong>Pedro Abreu</strong></p>
+        <p>Criado por <strong>Marcos Spano</strong> e <strong>Pedro Abreu</strong> | <a href='./psd/projeto.zip'>Arquivos</a></p>
         
         
       </footer>
