@@ -57,8 +57,11 @@ function App() {
       </section>
 
       <section className="sobreClass" id="sobre">
-        <div><img src="./imgs/socialmedia.png" alt="" /></div>
-        <div className='carrossel1'></div>
+        <div>
+          <img src="./imgs/socialmedia.png" alt="" />
+          <div className='carrossel1'></div>
+        </div>
+        
       </section>
 
       <section className="cursosClass" id="cursos">
