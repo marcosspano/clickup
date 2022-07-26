@@ -58,6 +58,7 @@ section {
 .App-header img {
   width: 9%;
   margin: 0 0 0 20px;
+  cursor: pointer;
 }
 
 .App-header a {
@@ -75,8 +76,13 @@ section {
   margin: 0 5px 0 5px;
 }
 
+.App-header ul li a:hover {
+  color: #f2960d;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+}
+
 .homeClass {
-  
 
   background-image: linear-gradient(to bottom right, rgb(226, 88, 34), #FFBD6F);
   min-height: 100vh;
@@ -135,11 +141,11 @@ section {
 }
 
 .cursosClass .carrossel2 {
-  width: 193px;
-  height: 197px;
+  width: 175px;
+  height: 135px;
   background-color: #FFFFFF;
-  bottom: 294px;
-  left: 165px;
+  bottom: 222px;
+  left: 126px;
 
   display: flex;
   flex: none;
@@ -147,6 +153,10 @@ section {
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+
+  transform: rotateY(50deg) rotateX(30deg);
+  -webkit-transform: rotateY(50deg) rotateX(30deg);;
+
 }
 
 .cursosClass .carrossel2 img {

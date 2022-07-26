@@ -90,8 +90,8 @@ function App() {
         <div>
          <img src="./imgs/cursos.png" alt="" />
             <div className='carrossel2'>
-              <img src="./imgs/images/carrossel1__01.png" alt="" />
-              <img src="./imgs/images/carrossel1__02.png" alt="" />
+              <img src="./imgs/images/mapa_01.png" alt="" />
+              <img src="./imgs/images/mapa_02.png" alt="" />
             </div>
           </div>
       </section>
