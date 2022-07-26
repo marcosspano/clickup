@@ -92,6 +92,20 @@ section {
   min-height: 100vh;
 }
 
+.sobreClass div {
+  width: 1153px;
+  height: 615px;
+  position: relative;
+}
+
+.sobreClass .carrossel1 {
+  width: 193px;
+  height: 197px;
+  background-color: #FFFFFF;
+  bottom: 290px;
+  left: -315px;
+}
+
 .cursosClass {
   background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
   min-height: 100vh;
