@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <h3>Click Up</h3>
+        <img src="./imgs/logo.png" alt="" />
 
         <ul>
           <li><a href="#home">Home</a></li>
@@ -48,9 +48,6 @@ function App() {
 
       <section className="homeClass" id="home">
 
-        <div>
-          <p>Promoção Click Up</p>
-        </div>
           
         <div>
           <img src="./imgs/logo-e-mockup.png" alt="" />
@@ -60,19 +57,61 @@ function App() {
       </section>
 
       <section className="sobreClass" id="sobre">
-        <h2 data-anime="left">Curso de Idiomas</h2>
+        <img src="./imgs/socialmedia.png" alt="">
+          
+        </img>
+
       </section>
 
       <section className="cursosClass" id="cursos">
-
-        <h2 data-anime="right">Curso de Idiomas</h2>
+      <img src="./imgs/cursos.png" alt="" />
       </section>
 
       <section className="contatoClass" id="contato">
-        <h2 data-anime="left">Curso de Idiomas</h2>
+        <p>Entre em contato pelo email: contato@clickup.com</p>
       </section>
 
       <footer>
+
+        <div>
+        <ul>
+          <li>Quem Somos</li>
+          <li>Unidades</li>
+          <li>Seja um Franqueado</li>
+          <li>Trabalhe Conosco</li>
+          <li>Blog</li>
+          <li>Convênios</li>
+          <li>Dúvidas Frequentes</li>
+          <li>Contato</li>
+          <li>Termo de privacidade</li>
+        </ul>
+
+        <ul>
+          <li>Inglês</li>
+          <li>Espanhol</li>
+          <li>Francês</li>
+          <li>Alemão</li>
+          <li>Italiano</li>
+          <li>Cursos Personalizados</li>
+          <li>Teste de Classificação</li>
+          <li>Certificações</li>
+          <li>Intercâmbio e Viagens</li>
+        </ul>
+
+        <ul>
+          <li>Alunos</li>
+          <li>Franqueados</li>
+        </ul>
+
+        <ul>
+          <li>Estr. do Portela, 61 - Madureira.</li>
+          <li>Rio de Janeiro - RJ, CEP 21351-050</li>
+        </ul>
+
+        </div>
+
+        <p>Criado por <strong>Marcos Spano</strong> e <strong>Pedro Abreu</strong></p>
+        
         
       </footer>
 

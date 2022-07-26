@@ -55,6 +55,11 @@ section {
   top: 0;
 }
 
+.App-header img {
+  width: 9%;
+  margin: 0 0 0 20px;
+}
+
 .App-header a {
   color: #ffffff;
   text-decoration: none;
@@ -71,7 +76,9 @@ section {
 }
 
 .homeClass {
-  background-color: rgb(226, 88, 34);
+  
+
+  background-image: linear-gradient(to bottom right, rgb(226, 88, 34), #FFBD6F);
   min-height: 100vh;
 
   display: flex;
@@ -81,18 +88,51 @@ section {
 }
 
 .sobreClass {
-  background-color: rgb(79, 49, 209);
+  background-image: linear-gradient(to bottom right, #009245, #FCEE21);
   min-height: 100vh;
 }
 
 .cursosClass {
-  background-color: rgb(17, 189, 89);
+  background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
   min-height: 100vh;
 }
 
 .contatoClass {
-  background-color: rgb(172, 38, 112);
-  min-height: 100vh;
+  background-color: #282c34;
+  min-height: 30vh;
+}
+
+.contatoClass p {
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #282c34;
+  border-top: solid 1px #FFFFFF;
+}
+
+footer div {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:baseline;
+  flex-wrap: wrap;
+}
+
+
+
+footer div li {
+  list-style: none;
+  text-align: left;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+footer p {
+  border-top: solid 1px #FFFFFF;
+  color: #FFFFFF;
+  padding: 40px;
 }
 
 @keyframes App-logo-spin {
