@@ -7,7 +7,7 @@ function App() {
     const animationClass = 'animate';
 
     function animeScroll() {
-      const windowTop = document.documentElement.scrollTop + ((window.innerHeight * 3)/4);
+      const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4);
       target.forEach(function (element) {
         if ((windowTop) > element.offsetTop) {
           element.classList.add(animationClass);
@@ -47,7 +47,7 @@ function App() {
       </header>
 
       <section className="homeClass" id="home">
-
+<img src="./imgs/logo-e-mockup.png" alt="" />
 
       </section>
 
@@ -56,6 +56,7 @@ function App() {
       </section>
 
       <section className="cursosClass" id="cursos">
+
         <h2 data-anime="right">Curso de Idiomas</h2>
       </section>
 
