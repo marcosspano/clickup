@@ -47,7 +47,15 @@ function App() {
       </header>
 
       <section className="homeClass" id="home">
-<img src="./imgs/logo-e-mockup.png" alt="" />
+
+        <div>
+          <p>Promoção Click Up</p>
+        </div>
+          
+        <div>
+          <img src="./imgs/logo-e-mockup.png" alt="" />
+        </div>
+           
 
       </section>
 
