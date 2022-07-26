@@ -106,6 +106,12 @@ section {
   left: 165px;
 }
 
+.sobreClass .carrossel1 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .cursosClass {
   background-image: linear-gradient(to bottom right, #305170, #6DFC6B);
   height: 615px;
